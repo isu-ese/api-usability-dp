@@ -1,4 +1,5 @@
-\documentclass[conference]{IEEEtran}
+\RequirePackage[T1]{fontenc}
+\documentclass[conference,compsoc]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 % \usepackage{cite}
@@ -10,10 +11,10 @@
 \usepackage{hyperref}
 \usepackage{multirow}
 \usepackage{setspace}
-\usepackage{epstopdf}
 
 $if(graphics)$
 \usepackage{graphicx}
+\usepackage{epstopdf}
 % Redefine \includegraphics so that, unless explicit options are
 % given, the image width will not exceed the width of the page.
 % Images get their normal width if they fit onto the page, but
@@ -42,11 +43,11 @@ $endif$
 $for(affiliations)$
 \IEEEauthorblockN{$affiliations.authors$}
 \IEEEauthorblockA{$if(affiliations.lab)$$affiliations.lab$\\$endif$
-$if(affiliations.deptartment$$affiliations.department$\\$endif$
-$if(affiliations.institute$$affiliations.institute$\\$endif$
-$if(affiliations.city)$$affiliations.city$, $endif$$if(affiliations.state)$$affiliations.state$, $endif$$if(affiliations.postcode)$$affiliations.postcode$$endif$\\
-$if(affiliations.email)$Email: \{$affiliations.email$\}}$endif$
-$endfor$
+  $if(affiliations.department)$$affiliations.department$\\$endif$
+  $if(affiliations.institute)$$affiliations.institute$\\$endif$
+  $if(affiliations.city)$$affiliations.city$, $endif$$if(affiliations.state)$$affiliations.state$, $endif$$if(affiliations.postcode)$$affiliations.postcode$$endif$\\
+  $if(affiliations.email)$Email: \{$affiliations.email$\}$endif$}
+  $endfor$
 }
 
 \maketitle
@@ -60,8 +61,5 @@ $keywords$
 \end{IEEEkeywords}
 
 $body$
-
-\bibliographystyle{IEEEtran}
-\bibliography{referneces}
 
 \end{document}
