@@ -1,3 +1,1 @@
 # Conclusion
-
-!include(recommendations.md)
