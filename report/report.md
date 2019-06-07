@@ -8,6 +8,7 @@
 
 !include(validity/validity.md)
 
+!include(conclusion/conclusion.md)
 # References {-}
 
 ::: {#refs}
