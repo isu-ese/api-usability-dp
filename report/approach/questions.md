@@ -1,4 +1,5 @@
 ## Research Questions
+
 - **RQ1:** What design pattern types do research study when considering usability and reliabiity?
 - **RQ2:** What recomendations have been made regarding application of design patterns and in the context of usability and reliability?
 - **RQ3:** How is the impact on usability and reliability from design patterns currently evaluated?
