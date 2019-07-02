@@ -1,5 +1,3 @@
 ## Search Queries
 
-The search query used in this paper was created from keywords based on our research questions abd included: usability, reliability, design patterns, and pattern.
-
-The specific search query used in this paper was: (usability OR useable OR learnability OR learnable OR efficiency OR satisfaction OR memorability OR memorization) AND (reliability OR reliable OR integrity OR maturity OR compliance OR “fault tolerance”) AND ("design pattern" OR pattern)
+The search string used in this paper was created from keywords identfied based on our reseach questions and included: usability, reliability, design pattern, and pattern as well as common synonyms and subcharacteristics of usability and reliability. The specific search string used is: (usability OR useable OR learnability OR learnable OR efficiency OR satisfaction OR memorability OR memorization) AND (reliability OR reliable OR integrity OR maturity OR compliance OR “fault tolerance”) AND ("design pattern" OR pattern). We aslo made use of boolean operators such as OR and AND as well as operator precedence through the use of ().
