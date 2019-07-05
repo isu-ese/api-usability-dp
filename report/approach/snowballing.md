@@ -1,2 +1,2 @@
 ## Snowballing Approach
-We utilized the snoballing approach defined by wohlin et al. [X] to dinf further sources overlooked by the initial search. Specifically, we utilized the following approach:
+We utilized the snoballing approach defined by wohlin et al. [@wohlinGuidelinesSnowballingSystematic2014] to dinf further sources overlooked by the initial search. Specifically, we utilized the following approach:
